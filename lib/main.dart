@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:student_tuition_google_map/custom_marker.dart';
 
 import 'address_conversion_geocoding.dart';
 import 'home_page_screen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: GeoCodingConversion(),
+      home: CustomMarkers(),
     );
   }
 }
