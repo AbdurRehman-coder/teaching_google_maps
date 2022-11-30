@@ -3,6 +3,7 @@ import 'package:student_tuition_google_map/custom_marker.dart';
 
 import 'address_conversion_geocoding.dart';
 import 'home_page_screen.dart';
+import 'location_update.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: CustomMarkers(),
+      home: LocationUpdate(),
     );
   }
 }
